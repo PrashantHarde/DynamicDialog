@@ -1,0 +1,57 @@
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-size: large;
+}
+
+td.mat-cell, th.mat-header-cell {
+    text-align: center;
+    justify-content:center;
+}
+
+table.mat-table {
+    border-spacing: 0;
+    width: 97%;
+    height: 550px;
+    font-weight: 500;
+    margin: 25px;
+    border-radius: 15px;
+    text-align-last: center;
+}
+
+.mat-column-id {
+    border-right: 1px solid black;
+    text-align: center;
+}
+.mat-column-product {
+    border-right: 1px solid black;
+    text-align: center;
+}
+.mat-column-customer {
+    border-right: 1px solid black;
+    text-align: center;
+}
+.mat-column-email {
+    border-right: 1px solid black;
+    text-align: center;
+}
+.mat-column-price {
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.mat-row:hover .mat-cell {
+    border-color: grey;
+    
+}
+
+.mat-row {
+    border-bottom: 1px solid black;
+}
+
+.open{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+   

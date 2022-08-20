@@ -1,0 +1,9 @@
+.button-holder{
+    justify-content: end;
+}
+
+.title{
+    justify-content: center;
+    display: flex;
+    color: cornflowerblue;
+}
